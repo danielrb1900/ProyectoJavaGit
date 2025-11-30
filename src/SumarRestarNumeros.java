@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-public class SumarNumeros {
+public class SumarRestarNumeros {
     public static void main(String[] args) {
         
         Scanner sc = new Scanner(System.in);
 
-        int x, y, suma;
+        int x, y, suma, resta;
 
         System.out.print("Introduce el primer número: ");
         x = sc.nextInt();
@@ -16,7 +16,9 @@ public class SumarNumeros {
         sc.close();
 
         suma = x + y;
+        resta = x - y;
 
         System.out.println(x + " + " + y + " = " + suma);
+         System.out.println(x + " - " + y + " = " + resta);
     }
 }
